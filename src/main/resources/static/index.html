@@ -1,7 +1,7 @@
-<!doctype html>
-<html>
-    <head>
-        <title>Hello AngularJS</title>
+<html lang="en">
+  <head>
+    <title>AngularJS Routing example</title>
+  
         <link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
         <style type="text/css">
             [ng\:cloak], [ng-cloak], .ng-cloak {
@@ -10,17 +10,26 @@
         </style>
     </head>
 
-    <body ng-app="hello">
-        
-        <div class="container">
-            <h1>Greeting</h1>
-            <div ng-controller="home" ng-cloak class="ng-cloak">
-                <p>The ID is {{greeting.id}}</p>
-                <p>The content is {{greeting.content}}</p>
-            </div>
+ <body ng-app="sampleApp">
+ 
+    <div class="container">
+        <div class="row">
+        <div class="col-md-3">
+            <ul class="nav">
+                <li><a href="#AddNewOrder"> Add New Order </a></li>
+                <li><a href="#ShowOrders"> Show Order </a></li>
+            </ul>
         </div>
+        <div class="col-md-9">
+            <div ng-view></div>
+        </div>
+        </div>
+    </div>
         <script src="bower_components/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
         <script src="bower_components/angular/angular.js" type="text/javascript"></script>
-        <script src="js/hello.js"></script>
+        <script src="bower_components/angular-route/angular-route.js" type="text/javascript"></script>
+       
+        <script src="js/app.js"></script>
+        <script src="js/controllers.js"></script>
     </body>
 </html>
