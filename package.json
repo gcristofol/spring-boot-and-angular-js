@@ -1,0 +1,13 @@
+{
+  "name": "workbench",
+  "version": "0.0.0",
+  "description": "Description for jhipster",
+  "private": true,
+  "dependencies": {
+    "bower": "^1.6.5"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}

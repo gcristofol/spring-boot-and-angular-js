@@ -1,0 +1,21 @@
+{
+    "name": "workbench",
+    "version": "0.0.0",
+    "appPath": "src/main/resources",
+    "testPath": "src/test/javascript/spec",
+    "dependencies": {
+    "bootstrap": "3.3.4",
+  
+    "jquery": "2.1.4",
+  
+    "angular": "1.3.11",
+    "angular-resource": "1.3.11",
+    "angular-cookies": "1.3.11",
+    "angular-sanitize": "1.3.11",
+    "angular-ui-router": "0.2.13"    
+  
+  },
+  "devDependencies": {
+    
+  }
+}
