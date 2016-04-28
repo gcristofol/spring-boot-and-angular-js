@@ -6,7 +6,9 @@
   "dependencies": {
     "bower": "^1.6.5"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "bower": "^1.7.9"
+  },
   "engines": {
     "node": ">=0.10.0"
   }
